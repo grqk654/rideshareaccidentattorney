@@ -348,7 +348,7 @@ function Nav({ page, setPage }) {
   const [menuOpen, setMenuOpen] = useState(false)
   return (
     <nav style={{ borderBottom: '1px solid #eee', position: 'sticky', top: 0, background: '#fff', zIndex: 100 }}>
-      <div style={{ maxWidth: 1280, margin: '0 40px', padding: '0 20px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: 58 }}>
+      <div style={{ maxWidth: 1280, margin: '0 auto', padding: '0 20px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: 58 }}>
         <div onClick={() => setPage('home')} style={{ cursor: 'pointer', fontFamily: G.serif, fontSize: 15, fontWeight: 700, display: 'flex', alignItems: 'center', gap: 4 }}>
           <span style={{ color: G.orange }}>Rideshare</span><span>AccidentAttorney</span><span style={{ color: '#999', fontWeight: 400 }}>.org</span>
         </div>
@@ -443,28 +443,28 @@ function HomePage({ setPage }) {
   return (
     <div>
       {/* Hero */}
-      <div style={{ background: G.navy, padding: '56px 20px 48px' }}>
-        <div style={{ maxWidth: 1100, margin: '0 auto' }}>
-          <div style={{ display: 'inline-block', background: G.orangePale, color: G.orangeLight, fontSize: 11, fontWeight: 500, padding: '4px 14px', borderRadius: 20, marginBottom: 20, letterSpacing: '0.6px', textTransform: 'uppercase' }}>
-            Free legal resource — no signup required
-          </div>
-          <h1 className="hero-h1" style={{ fontFamily: G.serif, fontSize: 38, fontWeight: 700, color: G.textLight, lineHeight: 1.2, maxWidth: 900, marginBottom: 16 }}>
-            Hurt in an Uber or Lyft?<br />
-            <span style={{ color: G.orangeLight }}>You have rights.</span> Here's what to do.
-          </h1>
-          <p style={{ fontSize: 15, color: G.textMuted, lineHeight: 1.7, maxWidth: 680, marginBottom: 28 }}>
-            Rideshare accidents involve layered insurance policies, corporate legal teams, and tight deadlines. This resource helps you understand your options — and connect with an attorney who handles these cases.
-          </p>
-          <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
-            <button onClick={() => setPage('free-case-evaluation')} style={{ background: G.orange, color: '#fff', border: 'none', padding: '13px 24px', borderRadius: 6, fontSize: 14, fontWeight: 500, cursor: 'pointer', fontFamily: G.sans }}>
-              Get a Free Case Evaluation
-            </button>
-            <button onClick={() => setPage('rideshare-accident-settlement-calculator')} style={{ background: 'transparent', color: G.textMuted, border: `1px solid rgba(148,168,192,0.35)`, padding: '13px 24px', borderRadius: 6, fontSize: 14, cursor: 'pointer', fontFamily: G.sans }}>
-              What is my case worth?
-            </button>
-          </div>
-        </div>
-      </div>
+     <div style={{ background: G.navy, padding: '56px 20px 48px' }}>
+  <div style={{ maxWidth: 800, margin: '0 auto', textAlign: 'center' }}>
+    <div style={{ display: 'inline-block', background: G.orangePale, color: G.orangeLight, fontSize: 11, fontWeight: 500, padding: '4px 14px', borderRadius: 20, marginBottom: 20, letterSpacing: '0.6px', textTransform: 'uppercase' }}>
+      Free legal resource — no signup required
+    </div>
+    <h1 className="hero-h1" style={{ fontFamily: G.serif, fontSize: 38, fontWeight: 700, color: G.textLight, lineHeight: 1.2, marginBottom: 16 }}>
+      Hurt in an Uber or Lyft?<br />
+      <span style={{ color: G.orangeLight }}>You have rights.</span> Here's what to do.
+    </h1>
+    <p style={{ fontSize: 15, color: G.textMuted, lineHeight: 1.7, marginBottom: 28 }}>
+      Rideshare accidents involve layered insurance policies, corporate legal teams, and tight deadlines. This resource helps you understand your options — and connect with an attorney who handles these cases.
+    </p>
+    <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', justifyContent: 'center' }}>
+      <button onClick={() => setPage('free-case-evaluation')} style={{ background: G.orange, color: '#fff', border: 'none', padding: '13px 24px', borderRadius: 6, fontSize: 14, fontWeight: 500, cursor: 'pointer', fontFamily: G.sans }}>
+        Get a Free Case Evaluation
+      </button>
+      <button onClick={() => setPage('rideshare-accident-settlement-calculator')} style={{ background: 'transparent', color: G.textMuted, border: `1px solid rgba(148,168,192,0.35)`, padding: '13px 24px', borderRadius: 6, fontSize: 14, cursor: 'pointer', fontFamily: G.sans }}>
+        What is my case worth?
+      </button>
+    </div>
+  </div>
+</div>
 
       {/* Stats Bar */}
       <div style={{ background: G.navyMid, borderBottom: `1px solid ${G.border}` }}>
