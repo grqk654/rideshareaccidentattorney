@@ -448,11 +448,11 @@ function HomePage({ setPage }) {
           <div style={{ display: 'inline-block', background: G.orangePale, color: G.orangeLight, fontSize: 11, fontWeight: 500, padding: '4px 14px', borderRadius: 20, marginBottom: 20, letterSpacing: '0.6px', textTransform: 'uppercase' }}>
             Free legal resource — no signup required
           </div>
-          <h1 className="hero-h1" style={{ fontFamily: G.serif, fontSize: 38, fontWeight: 700, color: G.textLight, lineHeight: 1.2, maxWidth: 640, marginBottom: 16 }}>
+          <h1 className="hero-h1" style={{ fontFamily: G.serif, fontSize: 38, fontWeight: 700, color: G.textLight, lineHeight: 1.2, maxWidth: 900, marginBottom: 16 }}>
             Hurt in an Uber or Lyft?<br />
             <span style={{ color: G.orangeLight }}>You have rights.</span> Here's what to do.
           </h1>
-          <p style={{ fontSize: 15, color: G.textMuted, lineHeight: 1.7, maxWidth: 520, marginBottom: 28 }}>
+          <p style={{ fontSize: 15, color: G.textMuted, lineHeight: 1.7, maxWidth: 680, marginBottom: 28 }}>
             Rideshare accidents involve layered insurance policies, corporate legal teams, and tight deadlines. This resource helps you understand your options — and connect with an attorney who handles these cases.
           </p>
           <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
