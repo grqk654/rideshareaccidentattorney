@@ -443,7 +443,7 @@ function HomePage({ setPage }) {
   return (
     <div>
       {/* Hero */}
-      <div style={{ background: G.navy, padding: '56px 6% 48px' }}>
+      <div style={{ background: G.navy, padding: '56px 20px 48px' }}>
         <div style={{ maxWidth: 1100, margin: '0 auto' }}>
           <div style={{ display: 'inline-block', background: G.orangePale, color: G.orangeLight, fontSize: 11, fontWeight: 500, padding: '4px 14px', borderRadius: 20, marginBottom: 20, letterSpacing: '0.6px', textTransform: 'uppercase' }}>
             Free legal resource — no signup required
