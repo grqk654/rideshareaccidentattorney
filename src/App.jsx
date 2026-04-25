@@ -348,7 +348,7 @@ function Nav({ page, setPage }) {
   const [menuOpen, setMenuOpen] = useState(false)
   return (
     <nav style={{ borderBottom: '1px solid #eee', position: 'sticky', top: 0, background: '#fff', zIndex: 100 }}>
-      <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 20px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: 58 }}>
+      <div style={{ maxWidth: 1100, margin: '0 40px', padding: '0 20px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: 58 }}>
         <div onClick={() => setPage('home')} style={{ cursor: 'pointer', fontFamily: G.serif, fontSize: 15, fontWeight: 700, display: 'flex', alignItems: 'center', gap: 4 }}>
           <span style={{ color: G.orange }}>Rideshare</span><span>AccidentAttorney</span><span style={{ color: '#999', fontWeight: 400 }}>.org</span>
         </div>
