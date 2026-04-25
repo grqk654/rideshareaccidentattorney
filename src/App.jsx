@@ -417,7 +417,7 @@ function TrustBar() {
   const items = ['No fees unless you win', 'Free consultation', 'Uber & Lyft specialists', 'Available 24/7', 'Confidential review']
   return (
     <div style={{ background: '#0D1F35', padding: '10px 20px', overflowX: 'auto' }}>
-      <div style={{ maxWidth: 1100, margin: '0 auto', display: 'flex', gap: 24, alignItems: 'center', flexWrap: 'wrap' }}>
+      <div style={{ maxWidth: 1100, margin: '0 auto', display: 'flex', gap: 24, alignItems: 'center', flexWrap: 'wrap', justifyContent: 'center' }}>
         {items.map(item => (
           <div key={item} style={{ display: 'flex', alignItems: 'center', gap: 6, fontSize: 12, color: '#94A8C0', whiteSpace: 'nowrap' }}>
             <span style={{ width: 6, height: 6, borderRadius: '50%', background: G.green, display: 'inline-block', flexShrink: 0 }} />
